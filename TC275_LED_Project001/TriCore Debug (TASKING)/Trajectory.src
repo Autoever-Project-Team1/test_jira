@@ -1,0 +1,577 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc30264a --dep-file=Trajectory.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001 -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Configurations -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Infra -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Service -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Comm -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\PwmHl -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Timer -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\user\\\\AURIX-v1.9.20-workspace\\\\TC275_LED_Project001\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Trajectory.src ../Trajectory.c"
+	.compiler_name		"ctc"
+	;source	'../Trajectory.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Trajectory.MakeTrajectoryPos',code,cluster('MakeTrajectoryPos')
+	.sect	'.text.Trajectory.MakeTrajectoryPos'
+	.align	2
+	
+	.global	MakeTrajectoryPos
+; Function MakeTrajectoryPos
+.L6:
+MakeTrajectoryPos:	.type	func
+	mov	d3,#0
+.L41:
+	mov	d15,#4719
+	addih	d15,d15,#14979
+.L53:
+	mul.f	d5,d7,d15
+.L40:
+	movh.a	a15,#@his(Target)
+	lea	a15,[a15]@los(Target)
+.L54:
+	sub.f	d15,d4,d3
+.L55:
+	movh	d0,#49152
+.L56:
+	mul.f	d15,d15,d0
+.L57:
+	mul.f	d0,d6,d6
+.L58:
+	mul.f	d0,d0,d6
+.L59:
+	div.f	d15,d15,d0
+.L60:
+	mul.f	d0,d5,d5
+.L61:
+	mul.f	d0,d0,d5
+.L62:
+	sub.f	d1,d4,d3
+.L63:
+	movh	d2,#16448
+.L64:
+	mul.f	d1,d1,d2
+.L65:
+	mul.f	d2,d6,d6
+.L66:
+	div.f	d1,d1,d2
+.L67:
+	mul.f	d2,d5,d5
+.L68:
+	mul.f	d1,d1,d2
+.L69:
+	madd.f	d15,d1,d15,d0
+.L70:
+	add.f	d15,d15,d3
+.L71:
+	st.w	[a15],d15
+.L72:
+	cmp.f	d15,d5,d6
+	and	d15,#6
+	ne	d15,d15,#0
+.L73:
+	jeq	d15,#0,.L2
+.L74:
+	movh.a	a15,#@his(Target)
+	lea	a15,[a15]@los(Target)
+.L75:
+	st.w	[a15],d4
+.L2:
+	movh.a	a15,#@his(Target)
+	lea	a15,[a15]@los(Target)
+	ld.w	d2,[a15]
+.L76:
+	j	.L3
+.L3:
+	ret
+.L30:
+	
+__MakeTrajectoryPos_function_end:
+	.size	MakeTrajectoryPos,__MakeTrajectoryPos_function_end-MakeTrajectoryPos
+.L17:
+	; End of function
+	
+	.sdecl	'.text.Trajectory.MakeTrajectoryVel',code,cluster('MakeTrajectoryVel')
+	.sect	'.text.Trajectory.MakeTrajectoryVel'
+	.align	2
+	
+	.global	MakeTrajectoryVel
+; Function MakeTrajectoryVel
+.L8:
+MakeTrajectoryVel:	.type	func
+	mov	d15,#0
+.L43:
+	mov	d0,#4719
+	addih	d0,d0,#14979
+.L81:
+	mul.f	d0,d7,d0
+.L42:
+	movh.a	a15,#@his(TargetV)
+	lea	a15,[a15]@los(TargetV)
+.L82:
+	sub.f	d1,d4,d15
+.L83:
+	movh	d2,#49344
+.L84:
+	mul.f	d1,d1,d2
+.L85:
+	mul.f	d2,d6,d6
+.L86:
+	mul.f	d2,d2,d6
+.L87:
+	div.f	d1,d1,d2
+.L88:
+	mul.f	d2,d0,d0
+.L89:
+	sub.f	d15,d4,d15
+.L44:
+	movh	d3,#16576
+.L90:
+	mul.f	d15,d15,d3
+.L91:
+	mul.f	d3,d6,d6
+.L92:
+	div.f	d15,d15,d3
+.L93:
+	mul.f	d15,d15,d0
+.L94:
+	madd.f	d15,d15,d1,d2
+.L95:
+	st.w	[a15],d15
+.L96:
+	movh.a	a15,#@his(TargetV)
+	lea	a15,[a15]@los(TargetV)
+	ld.w	d2,[a15]
+.L97:
+	j	.L4
+.L4:
+	ret
+.L35:
+	
+__MakeTrajectoryVel_function_end:
+	.size	MakeTrajectoryVel,__MakeTrajectoryVel_function_end-MakeTrajectoryVel
+.L22:
+	; End of function
+	
+	.sdecl	'.data.Trajectory.Target',data,cluster('Target')
+	.sect	'.data.Trajectory.Target'
+	.global	Target
+	.align	2
+Target:	.type	object
+	.size	Target,4
+	.space	4
+	.sdecl	'.data.Trajectory.TargetV',data,cluster('TargetV')
+	.sect	'.data.Trajectory.TargetV'
+	.global	TargetV
+	.align	2
+TargetV:	.type	object
+	.size	TargetV,4
+	.space	4
+	.sdecl	'.data.Trajectory.count',data,cluster('count')
+	.sect	'.data.Trajectory.count'
+	.global	count
+	.align	2
+count:	.type	object
+	.size	count,4
+	.space	4
+	.calls	'MakeTrajectoryPos','',0
+	.calls	'MakeTrajectoryVel','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L10:
+	.word	226
+	.half	3
+	.word	.L11
+	.byte	4
+.L9:
+	.byte	1
+	.byte	'../Trajectory.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\TC275_LED_Project001\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L12
+.L29:
+	.byte	2
+	.byte	'float',0,4,4,3,1,4
+	.word	204
+	.byte	5
+	.byte	'__codeptr',0,1,1,1
+	.word	206
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,21,0,54,15,0,0,4,15,0,73,19
+	.byte	0,0,5,22,0,3,8,58,15,59,15,57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L12:
+	.word	.L46-.L45
+.L45:
+	.half	3
+	.word	.L48-.L47
+.L47:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Trajectory.c',0,0,0,0,0
+.L48:
+.L46:
+	.sdecl	'.debug_info',debug,cluster('MakeTrajectoryPos')
+	.sect	'.debug_info'
+.L13:
+	.word	326
+	.half	3
+	.word	.L14
+	.byte	4,1
+	.byte	'../Trajectory.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\TC275_LED_Project001\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L16,.L15
+	.byte	2
+	.word	.L9
+	.byte	3
+	.byte	'MakeTrajectoryPos',0,1,8,8
+	.word	.L29
+	.byte	1,1,1
+	.word	.L6,.L30,.L5
+	.byte	4
+	.byte	'theta_f',0,1,8,33
+	.word	.L29,.L31
+	.byte	4
+	.byte	'theta_n',0,1,8,48
+	.word	.L29,.L32
+	.byte	4
+	.byte	't_f',0,1,8,64
+	.word	.L29,.L33
+	.byte	4
+	.byte	't_now',0,1,8,75
+	.word	.L29,.L34
+	.byte	5
+	.word	.L6,.L30
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('MakeTrajectoryPos')
+	.sect	'.debug_abbrev'
+.L14:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('MakeTrajectoryPos')
+	.sect	'.debug_line'
+.L15:
+	.word	.L50-.L49
+.L49:
+	.half	3
+	.word	.L52-.L51
+.L51:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Trajectory.c',0,0,0,0,0
+.L52:
+	.byte	5,13,7,0,5,2
+	.word	.L6
+	.byte	3,9,1,5,21,9
+	.half	.L41-.L6
+	.byte	3,1,1,5,19,9
+	.half	.L53-.L41
+	.byte	1,5,5,9
+	.half	.L40-.L53
+	.byte	3,2,1,5,29,9
+	.half	.L54-.L40
+	.byte	1,5,15,9
+	.half	.L55-.L54
+	.byte	1,5,29,9
+	.half	.L56-.L55
+	.byte	1,5,47,9
+	.half	.L57-.L56
+	.byte	1,5,53,9
+	.half	.L58-.L57
+	.byte	1,5,40,9
+	.half	.L59-.L58
+	.byte	1,5,67,9
+	.half	.L60-.L59
+	.byte	1,5,73,9
+	.half	.L61-.L60
+	.byte	1,5,27,9
+	.half	.L62-.L61
+	.byte	3,1,1,5,14,9
+	.half	.L63-.L62
+	.byte	1,5,16,9
+	.half	.L64-.L63
+	.byte	1,5,45,9
+	.half	.L65-.L64
+	.byte	1,5,38,9
+	.half	.L66-.L65
+	.byte	1,5,62,9
+	.half	.L67-.L66
+	.byte	1,5,53,9
+	.half	.L68-.L67
+	.byte	1,5,80,9
+	.half	.L69-.L68
+	.byte	3,127,1,5,71,9
+	.half	.L70-.L69
+	.byte	3,1,1,5,12,9
+	.half	.L71-.L70
+	.byte	3,127,1,5,13,9
+	.half	.L72-.L71
+	.byte	3,8,1,5,5,9
+	.half	.L73-.L72
+	.byte	1,5,19,7,9
+	.half	.L74-.L73
+	.byte	1,5,26,9
+	.half	.L75-.L74
+	.byte	1,5,12,9
+	.half	.L2-.L75
+	.byte	3,2,1,5,5,9
+	.half	.L76-.L2
+	.byte	1,5,1,9
+	.half	.L3-.L76
+	.byte	3,2,1,7,9
+	.half	.L17-.L3
+	.byte	0,1,1
+.L50:
+	.sdecl	'.debug_ranges',debug,cluster('MakeTrajectoryPos')
+	.sect	'.debug_ranges'
+.L16:
+	.word	-1,.L6,0,.L17-.L6,0,0
+	.sdecl	'.debug_info',debug,cluster('MakeTrajectoryVel')
+	.sect	'.debug_info'
+.L18:
+	.word	326
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'../Trajectory.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\TC275_LED_Project001\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L21,.L20
+	.byte	2
+	.word	.L9
+	.byte	3
+	.byte	'MakeTrajectoryVel',0,1,26,8
+	.word	.L29
+	.byte	1,1,1
+	.word	.L8,.L35,.L7
+	.byte	4
+	.byte	'theta_f',0,1,26,33
+	.word	.L29,.L36
+	.byte	4
+	.byte	'theta_n',0,1,26,48
+	.word	.L29,.L37
+	.byte	4
+	.byte	't_f',0,1,26,64
+	.word	.L29,.L38
+	.byte	4
+	.byte	't_now',0,1,26,75
+	.word	.L29,.L39
+	.byte	5
+	.word	.L8,.L35
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('MakeTrajectoryVel')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('MakeTrajectoryVel')
+	.sect	'.debug_line'
+.L20:
+	.word	.L78-.L77
+.L77:
+	.half	3
+	.word	.L80-.L79
+.L79:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Trajectory.c',0,0,0,0,0
+.L80:
+	.byte	5,13,7,0,5,2
+	.word	.L8
+	.byte	3,27,1,5,21,9
+	.half	.L43-.L8
+	.byte	3,1,1,5,19,9
+	.half	.L81-.L43
+	.byte	1,5,5,9
+	.half	.L42-.L81
+	.byte	3,6,1,5,30,9
+	.half	.L82-.L42
+	.byte	1,5,16,9
+	.half	.L83-.L82
+	.byte	1,5,30,9
+	.half	.L84-.L83
+	.byte	1,5,48,9
+	.half	.L85-.L84
+	.byte	1,5,54,9
+	.half	.L86-.L85
+	.byte	1,5,41,9
+	.half	.L87-.L86
+	.byte	1,5,68,9
+	.half	.L88-.L87
+	.byte	1,5,27,9
+	.half	.L89-.L88
+	.byte	3,1,1,5,14,9
+	.half	.L44-.L89
+	.byte	1,5,16,9
+	.half	.L90-.L44
+	.byte	1,5,45,9
+	.half	.L91-.L90
+	.byte	1,5,38,9
+	.half	.L92-.L91
+	.byte	1,5,53,9
+	.half	.L93-.L92
+	.byte	1,5,75,9
+	.half	.L94-.L93
+	.byte	3,127,1,5,13,9
+	.half	.L95-.L94
+	.byte	1,5,12,9
+	.half	.L96-.L95
+	.byte	3,6,1,5,5,9
+	.half	.L97-.L96
+	.byte	1,5,1,9
+	.half	.L4-.L97
+	.byte	3,2,1,7,9
+	.half	.L22-.L4
+	.byte	0,1,1
+.L78:
+	.sdecl	'.debug_ranges',debug,cluster('MakeTrajectoryVel')
+	.sect	'.debug_ranges'
+.L21:
+	.word	-1,.L8,0,.L22-.L8,0,0
+	.sdecl	'.debug_info',debug,cluster('Target')
+	.sect	'.debug_info'
+.L23:
+	.word	215
+	.half	3
+	.word	.L24
+	.byte	4,1
+	.byte	'../Trajectory.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\TC275_LED_Project001\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L9
+	.byte	3
+	.byte	'Target',0,1,4,8
+	.word	.L29
+	.byte	1,5,3
+	.word	Target
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Target')
+	.sect	'.debug_abbrev'
+.L24:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('TargetV')
+	.sect	'.debug_info'
+.L25:
+	.word	216
+	.half	3
+	.word	.L26
+	.byte	4,1
+	.byte	'../Trajectory.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\TC275_LED_Project001\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L9
+	.byte	3
+	.byte	'TargetV',0,1,5,8
+	.word	.L29
+	.byte	1,5,3
+	.word	TargetV
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('TargetV')
+	.sect	'.debug_abbrev'
+.L26:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('count')
+	.sect	'.debug_info'
+.L27:
+	.word	214
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'../Trajectory.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\user\\AURIX-v1.9.20-workspace\\TC275_LED_Project001\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L9
+	.byte	3
+	.byte	'count',0,1,6,8
+	.word	.L29
+	.byte	1,5,3
+	.word	count
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('count')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('MakeTrajectoryPos')
+	.sect	'.debug_loc'
+.L5:
+	.word	-1,.L6,0,.L30-.L6
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L33:
+	.word	-1,.L6,0,.L30-.L6
+	.half	1
+	.byte	86
+	.word	0,0
+.L34:
+	.word	-1,.L6,0,.L40-.L6
+	.half	1
+	.byte	87
+	.word	.L40-.L6,.L30-.L6
+	.half	1
+	.byte	85
+	.word	0,0
+.L31:
+	.word	-1,.L6,0,.L30-.L6
+	.half	1
+	.byte	84
+	.word	0,0
+.L32:
+	.word	-1,.L6,0,.L41-.L6
+	.half	1
+	.byte	85
+	.word	.L41-.L6,.L30-.L6
+	.half	1
+	.byte	83
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('MakeTrajectoryVel')
+	.sect	'.debug_loc'
+.L7:
+	.word	-1,.L8,0,.L35-.L8
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L38:
+	.word	-1,.L8,0,.L35-.L8
+	.half	1
+	.byte	86
+	.word	0,0
+.L39:
+	.word	-1,.L8,0,.L42-.L8
+	.half	1
+	.byte	87
+	.word	.L42-.L8,.L35-.L8
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L36:
+	.word	-1,.L8,0,.L35-.L8
+	.half	1
+	.byte	84
+	.word	0,0
+.L37:
+	.word	-1,.L8,0,.L43-.L8
+	.half	1
+	.byte	85
+	.word	.L43-.L8,.L44-.L8
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L98:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('MakeTrajectoryPos')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L98,.L6,.L30-.L6
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('MakeTrajectoryVel')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L98,.L8,.L35-.L8
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end
